@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="fi.hsl.dev.navigator-plugin" version="0.1.0">
+
+	<name>HSL Navigator Plugin</name>
+	<description>Install HSL Navigator dependencies and configs</description>
+	<author></author>
+	<license></license>
+	<keywords>cordova,device,orientation</keywords>
+	<repo>https://github.com/dippi/navigator-plugin.git</repo>
+	<issue></issue>
+
+	<dependency id="org.apache.cordova.geolocation" commit="r0.3.7"
+		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git" />
+	<dependency	id="org.apache.cordova.device-orientation" commit="r0.3.6"
+		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-device-orientation.git" />
+</plugin>
+
