@@ -15,5 +15,7 @@
 		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git" />
 	<dependency	id="org.apache.cordova.device-orientation" commit="r0.3.6"
 		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-device-orientation.git" />
+	<dependency id="com.red_folder.phonegap.plugin.backgroundservice" 
+		url="https://github.com/linzhiqi/bgs-core.git"/>
 </plugin>
 
