@@ -32,6 +32,10 @@
 		<resource-file src="icons/icon-48-mdpi.png" target="res/drawable-mdpi/icon.png" />
 		<resource-file src="icons/icon-72-hdpi.png" target="res/drawable-hdpi/icon.png" />
 		<resource-file src="icons/icon-96-xhdpi.png" target="res/drawable-xhdpi/icon.png" />
+		
+		<config-file target="custom_rules.xml" parent="/*">
+			<property name="aapt.ignore.assets" value="!.git:.*:docs:node_modules:src:tests:utils:bootstrap.py:buildout.cfg:Gruntfile.coffee:package.json:README.md" />
+		</config-file>
 	</platform>
 </plugin>
 
