@@ -45,5 +45,9 @@
 			<property name="aapt.ignore.assets" value="!.git:.*:docs:node_modules:src:tests:utils:bootstrap.py:buildout.cfg:Gruntfile.coffee:package.json:README.md" />
 		</config-file>
 	</platform>
+	
+	<info>
+		NOTE: to enable the splashscreen overwrite config.xml (you can find it in "manual" folder)
+	</info>
 </plugin>
 
