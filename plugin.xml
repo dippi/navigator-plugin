@@ -5,9 +5,9 @@
 
 	<name>HSL Navigator Plugin</name>
 	<description>Install HSL Navigator dependencies and configs</description>
-	<author></author>
-	<license></license>
-	<keywords>cordova,device,orientation</keywords>
+	<author>Aalto T-110.5130 - 2014 - Group2</author>
+	<license>MIT</license>
+	<keywords>HSL,navigator,plugins</keywords>
 	<repo>https://github.com/dippi/navigator-plugin.git</repo>
 	<issue></issue>
 
@@ -15,9 +15,11 @@
 		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git" />
 	<dependency id="org.apache.cordova.device-orientation" commit="r0.3.6"
 		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-device-orientation.git" />
-	<dependency id="com.red_folder.phonegap.plugin.backgroundservice" 
-		url="https://github.com/linzhiqi/bgs-core.git"/>
 	<dependency id="com.kolwit.pickcontact" commit="master"
 		url="https://github.com/aiksiang/com.kolwit.pickcontact.git" />
+	<dependency id="com.phonegap.plugins.barcodescanner" commit="1.1.0"
+		url="https://github.com/phonegap-build/BarcodeScanner.git" />
+	<dependency id="com.red_folder.phonegap.plugin.backgroundservice" 
+		url="https://github.com/linzhiqi/bgs-core.git"/>
 </plugin>
 
