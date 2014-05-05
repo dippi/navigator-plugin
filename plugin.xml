@@ -21,6 +21,8 @@
 		url="https://github.com/phonegap-build/BarcodeScanner.git" />
 	<dependency id="com.red_folder.phonegap.plugin.backgroundservice" 
 		url="https://github.com/linzhiqi/bgs-core.git"/>
+	<dependency id="com.phonegap.plugins.speech" commit="f7a930fc9788c996bb5e2ce401c08b08e03ba2c0"
+		url="https://github.com/mayurloved/speechrecognizer.git" />
 		
 	<platform name="android">
 		<resource-file src="icons/icon.png" target="res/drawable/icon.png" />
