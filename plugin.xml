@@ -13,7 +13,9 @@
 
 	<dependency id="org.apache.cordova.geolocation" commit="r0.3.7"
 		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git" />
-	<dependency	id="org.apache.cordova.device-orientation" commit="r0.3.6"
+	<dependency id="org.apache.cordova.device-orientation" commit="r0.3.6"
 		url="https://git-wip-us.apache.org/repos/asf/cordova-plugin-device-orientation.git" />
+	<dependency id="com.kolwit.pickcontact" commit="master"
+		url="https://github.com/aiksiang/com.kolwit.pickcontact.git" />
 </plugin>
 
