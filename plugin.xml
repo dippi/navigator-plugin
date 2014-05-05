@@ -25,6 +25,8 @@
 		url="https://github.com/linzhiqi/bgs-core.git"/>
 	<dependency id="com.phonegap.plugins.speech" commit="f7a930fc9788c996bb5e2ce401c08b08e03ba2c0"
 		url="https://github.com/mayurloved/speechrecognizer.git" />
+	<dependency id="org.apache.cordova.splashscreen" commit="r0.3.0"
+		url="https://github.com/apache/cordova-plugin-splashscreen.git" />
 		
 	<platform name="android">
 		<resource-file src="icons/icon.png" target="res/drawable/icon.png" />
@@ -32,6 +34,12 @@
 		<resource-file src="icons/icon-48-mdpi.png" target="res/drawable-mdpi/icon.png" />
 		<resource-file src="icons/icon-72-hdpi.png" target="res/drawable-hdpi/icon.png" />
 		<resource-file src="icons/icon-96-xhdpi.png" target="res/drawable-xhdpi/icon.png" />
+		
+		<resource-file src="splashscreen/splashscreen.png" target="res/drawable/splashscreen.png" />
+		<resource-file src="splashscreen/splashscreen.png" target="res/drawable-ldpi/splashscreen.png" />
+		<resource-file src="splashscreen/splashscreen.png" target="res/drawable-mdpi/splashscreen.png" />
+		<resource-file src="splashscreen/splashscreen.png" target="res/drawable-hdpi/splashscreen.png" />
+		<resource-file src="splashscreen/splashscreen.png" target="res/drawable-xhdpi/splashscreen.png" />
 		
 		<config-file target="custom_rules.xml" parent="/*">
 			<property name="aapt.ignore.assets" value="!.git:.*:docs:node_modules:src:tests:utils:bootstrap.py:buildout.cfg:Gruntfile.coffee:package.json:README.md" />
